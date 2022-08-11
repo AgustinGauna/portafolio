@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-top: 25px;
+}
+
+.formContainer{
+    background-color: #EBF2FA;
+    display: flex;
+    justify-content: center;
+    height: 430px;
+    width: 600px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 91.6vh;
+    background-color: rgb(104, 150, 137);
+    min-width: 100vw;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    fill: rgb(13, 35, 45)ay;
+    align-items: flex-start;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.container form input{
+    background-color: #b5b8bb;
+    width: 90%;
+    height: 35px;
+    padding-left:3.5px;
+    border-radius: 4px;
+    border: none;
+    overflow: auto;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    
+}
+.container form input:focus{
+    background-color: #b5b8bb;
+}
+.container form input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    box-shadow: none;
+    -webkit-box-shadow: 0 0 0 30px #b5b8bb inset !important;
+}
+    
+
+.container form textarea{
+    background-color: #b5b8bb;
+    width: 90%;;
+    height: 110px;
+    border: none;
+    overflow: auto;
+    outline: none;
+    padding-left: 3.5px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none;
+}
+
+.container form label{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+.container form button{
+    width: 90%;
+    height: 30px;
+    margin-top: -25px;
+    border: 1px solid white;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.container form button:hover{
+    background-color: #262727;
+    color: white;
+}
+
+.error{
+    color: red;
+    font-weight: 700;
+    min-height: 25px;
+}
+
+.cover{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 5px;
+}
+.separador{
+    min-height: 20px;
+}
+.linkedinLink{
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 6em;
+    color: white;
+}
+
+.linkedinLink:hover{
+    color: #0A66C2;
+}
+
+.icon{
+    text-decoration: none;
+}
+.orContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+.line{
+    height: 4px;
+    min-width: 220px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-right: 8px;
+}
+.line2{
+    height: 4px;
+    min-width: 220px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-left: 8px;
+}
+.or{
+    font-size: 2em;
+    text-align: center;
+}
+
+@media(max-width:990px){
+    .container{
+        margin-top: 50px;
+    }
+    }
+
+@media(max-width: 645px){
+    .formContainer{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .formContainer form{
+        width: 100%;
+        display: flex;
+        margin-left: 20px;
+    }
+
+    
+    .formContainer form input{
+        min-width: 90%;
+    }
+    .formContainer form textarea{
+        min-width: 90%;
+    }
+
+    .formContainer form button{
+        min-width: 90%;
+    }
+    .orContainer{
+        min-width: 30%;
+    }
+    .line{
+        min-width: 100%;
+    }
+    .line2{
+        min-width: 100%;
+    }
+    
+}
+@media (max-width: 400px){
+    .error{
+        font-size: 12px;
+        width: 100%;
+    }
+}

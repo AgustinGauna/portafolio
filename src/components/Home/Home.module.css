@@ -1,0 +1,206 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 91.6vh;
+   background-color: rgb(104, 150, 137);
+   color: rgb(245, 251, 239);
+   font-size: 30px;  
+}
+
+.presentation{
+    display: flex;
+    min-height: 75vh;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px auto;
+    max-width: 100%;
+}
+
+.img_container{
+    min-height: 170px;
+    
+}
+.central_img{
+    max-width: 140px;
+    max-height: 140px;
+    margin-bottom: 20px;
+}
+
+
+.card{
+    display: flex;
+    width: 900px;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.card h2{
+    margin-bottom: 17px;
+    text-align: center;
+    color: #000000;
+}
+
+.about{
+    text-align: center;
+    width: 50%;
+    margin-right: 20px;
+}
+.about p{
+    margin-bottom: 20px;
+}
+.tech{
+    width: 50%;
+    text-align: center;
+}
+
+.tech ul li{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 2em;
+
+}
+
+.html:hover{
+    color: #f06529;
+}
+
+.css:hover{
+    color: #264de4
+}
+
+.js:hover{
+    color: #F0DB4F;
+}
+.react:hover{
+    color: #61DBFB;
+}
+
+.github:hover{
+    color: #333;
+}
+.bootstrap:hover{
+    color:#563d7c;
+}
+
+
+
+.cv_link{
+    cursor: default;
+}
+
+.cv_btn {
+    border-color: #000000;
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 4px;
+    color: white;
+    background-color: #FF4365;
+    font-weight: 700;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: color 150ms ease-in-out;
+    transition: color 150ms ease-in-out;
+ 
+  }
+ 
+  .cv_btn a:hover{
+   color: white;
+  
+  }
+  .cv_btn:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: #ffffff;
+    color: #FF4365;
+    z-index: -1;
+    -webkit-transition: width 150ms ease-in-out;
+    transition: width 280ms ease-in-out;
+    font-weight: 700;
+  }
+  .cv_btn:hover {
+    color: #FF4365;
+    cursor: pointer;
+    font-weight: 700;   
+  }
+  .cv_btn:hover:after {
+    width: 110%;
+  }
+
+  .mobileRedes{
+    display: none;
+  }
+  
+
+  @media(max-width:990px){
+.container{
+    margin-top: 50px;
+}
+}
+
+@media (max-width: 920px){
+    html{
+        overflow-y:visible;  
+    }
+    .presentation .card{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .card .about{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card .tech{
+        width: 100%;
+        margin-top: 40px;
+        
+    }
+    .tech ul{
+        display: flex;
+        justify-content: center;
+    }
+    .tech ul li{
+        margin-right: 10px;
+    }
+
+    .mobileRedes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }   
+
+    .socialsContainer{
+        width: 120px;
+        margin-top: 3px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .socials{
+        font-size: 39px;
+        cursor: pointer;
+        color: white;
+    }
+}
+
+@media(max-width: 300px){
+    .tech ul li{
+        font-size: 27px;
+    }
+    .cv_btn{
+        width: 140px;
+    }
+}
