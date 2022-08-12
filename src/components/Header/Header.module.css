@@ -22,7 +22,7 @@
 }
 
 .container div{
-    color: #F5FBEF;
+    color: rgb(255, 255, 255);
     font-size: 20px;
 }
 
@@ -40,7 +40,7 @@
 
 .container ul li{
     font-size: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
@@ -51,7 +51,8 @@
 }
 
 li, li a {
-    color: white;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
      text-decoration: none;
    }
 
@@ -111,11 +112,4 @@ li, li a {
         display: none;
     }
   
-}
-
-
-.name{
-    color: white;
-    font-size: 22px;
-    cursor: pointer;
 }

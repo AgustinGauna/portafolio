@@ -26,7 +26,7 @@
 
 
 .technologies button{
-    background-color: #ffffffef;
+    background-color: rgb(255, 255, 255);
     color: #000000;
     font-weight: 700;
     line-height: 14.4px;
@@ -55,7 +55,7 @@
     border: none;
     border-radius: 3px;
     background-color: rgb(255, 67, 101);
-    color: #F5FBEF;
+    color: rgb(255, 255, 255);
     font-weight: 700;
     cursor: pointer;
 }
@@ -155,8 +155,8 @@
     background-color: #bebebe;
 }
 .childs h2{
-    color: white;
-    border-bottom: 1px solid white;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
     margin-bottom: 5px;
 }
 
