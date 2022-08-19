@@ -11,7 +11,6 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 const Contact = () => {
 
 
-
     const form = useRef();
     const [nameError, setNameError] = useState("")
     const [mailError, setMailError] = useState("")
