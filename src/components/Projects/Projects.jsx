@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Projects.module.css'
 import { motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGamepad, faBookOpen, faCloud, faList } from '@fortawesome/free-solid-svg-icons'
+import { faGamepad, faShoppingCart, faCloud, faList } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 
@@ -73,19 +73,20 @@ const Projects = () => {
                 <div className={styles.div4}>
 
                     <div className={styles.childs}>
-                        <h2>Wordle clon</h2>
+                        <h2>Aerolab Challenge</h2>
                         <div className={styles.technologies}>
                             <button>HTML5</button>
                             <button>CSS3</button>
-                            <button>React TS</button>
+                            <button>React</button>
+                            <button>TypeScript</button>
                         </div>
                         <div className={styles.urls}>
-                            <a href="https://wordle-seven-dun.vercel.app/" target="_blank" rel='noopener noreferrer'><button>Sitio</button></a>
-                            <a href="https://github.com/AgustinGauna/wordle" target="_blank" rel='noopener noreferrer'><button>Github</button></a>
+                            <a href="https://aerolab-challenge-blue.vercel.app/" target="_blank" rel='noopener noreferrer'><button>Sitio</button></a>
+                            <a href="https://github.com/AgustinGauna/aerolab-challenge" target="_blank" rel='noopener noreferrer'><button>Github</button></a>
                         </div>
                     </div>
                     <div className={styles.side}>
-                        <FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
+                        <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
 
                     </div>
                 </div>
