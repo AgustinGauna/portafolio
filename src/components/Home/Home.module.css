@@ -85,8 +85,10 @@
 .bootstrap:hover{
     color:#563d7c;
 }
-
-
+.ts{
+    height: 35px;
+    width: 35px;    
+}
 
 .cv_link{
     cursor: default;

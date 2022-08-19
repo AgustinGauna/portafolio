@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from './Home.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact, faJs, faHtml5, faCss3, faGithub, faBootstrap, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faReact, faJs, faHtml5, faCss3, faGithub, faBootstrap, faLinkedin, faTypeScript } from '@fortawesome/free-brands-svg-icons'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { useState } from 'react';
 import portada from './Circle-icons-computer.png'
+import typescript from './typescript.svg'
 
 const Home = () => {
 
@@ -43,10 +44,10 @@ const Home = () => {
                         <ul>
                             <li> <FontAwesomeIcon onMouseEnter={() => { setHtmlEstilos(tagStyle) }} onMouseLeave={() => { setHtmlEstilos({ display: "none" }) }} title='HTML' className={styles.html} icon={faHtml5}></FontAwesomeIcon> <div style={htmlEstilos} >HTML</div>  </li>
                             <li> <FontAwesomeIcon onMouseEnter={() => { setCssEstilos(tagStyle) }} onMouseLeave={() => { setCssEstilos({ display: "none" }) }} title='CSS' className={styles.css} icon={faCss3}></FontAwesomeIcon> <div style={cssEstilos} >CSS</div> </li>
-                            <li> <FontAwesomeIcon onMouseEnter={() => { setBootstrapEstilos(tagStyle) }} onMouseLeave={() => { setBootstrapEstilos({ display: "none" }) }} title='Github' className={styles.bootstrap} icon={faBootstrap}></FontAwesomeIcon> <div style={bootstrapEstilos} >Bootstrap</div>  </li>
+                            <li> <FontAwesomeIcon onMouseEnter={() => { setBootstrapEstilos(tagStyle) }} onMouseLeave={() => { setBootstrapEstilos({ display: "none" }) }} title='Bootstrap' className={styles.bootstrap} icon={faBootstrap}></FontAwesomeIcon> <div style={bootstrapEstilos} >Bootstrap</div>  </li>
                             <li> <FontAwesomeIcon onMouseEnter={() => { setJavascriptEstilos(tagStyle) }} onMouseLeave={() => { setJavascriptEstilos({ display: "none" }) }} title='JavaScript' className={styles.js} icon={faJs}></FontAwesomeIcon><div style={javascriptEstilos} >JavaScript</div>   </li>
                             <li> <FontAwesomeIcon onMouseEnter={() => { setReactEstilos(tagStyle) }} onMouseLeave={() => { setReactEstilos({ display: "none" }) }} title='React' className={styles.react} icon={faReact}></FontAwesomeIcon> <div style={reactEstilos} >React</div>  </li>
-                            <li> <FontAwesomeIcon onMouseEnter={() => { setGithubEstilos(tagStyle) }} onMouseLeave={() => { setGithubEstilos({ display: "none" }) }} title='Github' className={styles.github} icon={faGithub}></FontAwesomeIcon> <div style={githubEstilos} >GitHub</div>  </li>
+                            <li> <FontAwesomeIcon onMouseEnter={() => { setGithubEstilos(tagStyle) }} onMouseLeave={() => { setGithubEstilos({ display: "none" }) }} title='Github' className={styles.Github} icon={faGithub}></FontAwesomeIcon> <div style={githubEstilos} >React</div>  </li>
                         </ul>
                     </div>
                     <div className={styles.mobileRedes}>
