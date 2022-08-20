@@ -70,8 +70,8 @@ const Projects = () => {
                             <button>TypeScript</button>
                         </div>
                         <div className={styles.urls}>
-                            <a href="https://adviencychallenge.netlify.app/" target="_blank" rel='noopener noreferrer'><button>Sitio</button></a>
-                            <a href="https://github.com/AgustinGauna/Adviency-challenge" target="_blank" rel='noopener noreferrer'><button>Github</button></a>
+                            <a href="https://wordle-seven-dun.vercel.app/" target="_blank" rel='noopener noreferrer'><button>Sitio</button></a>
+                            <a href="https://github.com/AgustinGauna/wordle" target="_blank" rel='noopener noreferrer'><button>Github</button></a>
                         </div>
                     </div>
                     <div className={styles.side}>
