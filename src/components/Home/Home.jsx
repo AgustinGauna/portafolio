@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { useState } from 'react';
 import portada from './Circle-icons-computer.png'
-import typescript from './typescript.svg'
+
 
 const Home = () => {
 
@@ -32,7 +32,7 @@ const Home = () => {
                     <div className={styles.about}>
                         <h2>Sobre mi</h2>
                         <p>Hola, me llamo Agustín Gauna, tengo 24 años y soy Frontend Developer.</p>
-                        <p>Me especializo en React JS y tambien me gusta utilizar TypeScript.</p>
+                        <p>Me especializo en React JS y TypeScript.</p>
                         <p>Actualmente vivo en Buenos Aires - Argentina.</p>
                         <p>En mi tiempo libre me gusta juntarme con amigos, ver series y hacer ejercicio.</p>
                         <div>
@@ -47,7 +47,7 @@ const Home = () => {
                             <li> <FontAwesomeIcon onMouseEnter={() => { setBootstrapEstilos(tagStyle) }} onMouseLeave={() => { setBootstrapEstilos({ display: "none" }) }} title='Bootstrap' className={styles.bootstrap} icon={faBootstrap}></FontAwesomeIcon> <div style={bootstrapEstilos} >Bootstrap</div>  </li>
                             <li> <FontAwesomeIcon onMouseEnter={() => { setJavascriptEstilos(tagStyle) }} onMouseLeave={() => { setJavascriptEstilos({ display: "none" }) }} title='JavaScript' className={styles.js} icon={faJs}></FontAwesomeIcon><div style={javascriptEstilos} >JavaScript</div>   </li>
                             <li> <FontAwesomeIcon onMouseEnter={() => { setReactEstilos(tagStyle) }} onMouseLeave={() => { setReactEstilos({ display: "none" }) }} title='React' className={styles.react} icon={faReact}></FontAwesomeIcon> <div style={reactEstilos} >React</div>  </li>
-                            <li> <FontAwesomeIcon onMouseEnter={() => { setGithubEstilos(tagStyle) }} onMouseLeave={() => { setGithubEstilos({ display: "none" }) }} title='Github' className={styles.Github} icon={faGithub}></FontAwesomeIcon> <div style={githubEstilos} >React</div>  </li>
+                            <li> <FontAwesomeIcon onMouseEnter={() => { setGithubEstilos(tagStyle) }} onMouseLeave={() => { setGithubEstilos({ display: "none" }) }} title='Github' className={styles.github} icon={faGithub}></FontAwesomeIcon> <div style={githubEstilos} >Github</div>  </li>
                         </ul>
                     </div>
                     <div className={styles.mobileRedes}>

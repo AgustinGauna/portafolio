@@ -91,7 +91,7 @@ li, li a {
 
 
 
-@media (max-width: 920px){
+@media (max-width: 768px){
    
     .Navigation{
         display: none;

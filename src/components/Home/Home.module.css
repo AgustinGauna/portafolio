@@ -145,7 +145,11 @@
     display: none;
   }
   
-
+@media(max-width:1040px){
+    .card h2{
+        font-size: 30px;
+    }
+}
   @media(max-width:990px){
 .container{
     margin-top: 50px;
