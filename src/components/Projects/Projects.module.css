@@ -45,7 +45,7 @@
     width: 500px;
     height: 300px;
     animation: 1s in-out forwards;
-    background-image: url(../Projects/pokechallenge.png);
+    background-image: url(/public/pokechallenge.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -55,7 +55,7 @@
     width: 500px;
     height: 300px;
     animation: 1s in-out forwards;
-    background-image: url(../Projects/aerolab.png);
+    background-image: url(/public/aerolab.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -65,7 +65,7 @@
     width: 500px;
     height: 300px;
     animation: 1s in-out forwards;
-    background-image: url(../Projects/wordle.png);
+    background-image: url(/public/wordle.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -75,7 +75,7 @@
     width: 500px;
     height: 300px;
     animation: 1s in-out forwards;
-    background-image: url(../Projects/weather.png);
+    background-image: url(/public/weather.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
