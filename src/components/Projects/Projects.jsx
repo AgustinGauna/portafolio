@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGamepad, faShoppingCart, faCloud, faList, faArrowRight, faArrowLeft, faImage } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
+
 const Projects = () => {
     const [displayPoke, setDisplayPoke] = useState(false)
     const [displayWeather, setDisplayWeather] = useState(false)
@@ -14,11 +15,12 @@ const Projects = () => {
 
     return (
         <motion.div initial={{ opacity: 0.0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className={styles.container}>
+
             <h1 className={styles.title}>Algunos de mis proyectos</h1>
             <div className={styles.parent}>
                 <div className={styles.div1}>
                     <div onClick={() => { setDisplayPoke(!displayPoke) }} className={styles.sidebar}><FontAwesomeIcon className={styles.imageIcon} icon={faImage}></FontAwesomeIcon> <FontAwesomeIcon icon={displayPoke ? faArrowLeft : faArrowRight}></FontAwesomeIcon> </div>
-                    <div className={displayPoke ? styles.webImage : styles.hide} />
+                    <div className={displayPoke ? styles.webImage : styles.preload1} />
                     <div className={styles.childs}>
                         <h2>PokeChallenge</h2>
                         <div className={styles.technologies}>
@@ -40,7 +42,7 @@ const Projects = () => {
                 </div>
                 <div className={styles.div2}>
                     <div onClick={() => { setDisplayWeather(!displayWeather) }} className={styles.sidebar}><FontAwesomeIcon className={styles.imageIcon} icon={faImage}></FontAwesomeIcon> <FontAwesomeIcon icon={displayWeather ? faArrowLeft : faArrowRight}></FontAwesomeIcon> </div>
-                    <div className={displayWeather ? styles.weatherImage : styles.hide} alt="" />
+                    <div className={displayWeather ? styles.weatherImage : styles.preload3} alt="" />
                     <div className={styles.childs}>
                         <h2>Weather App</h2>
                         <div className={styles.technologies}>
@@ -60,7 +62,7 @@ const Projects = () => {
                 </div>
                 <div className={styles.div3}>
                     <div onClick={() => { setDisplayWordle(!displayWordle) }} className={styles.sidebar}><FontAwesomeIcon className={styles.imageIcon} icon={faImage}></FontAwesomeIcon> <FontAwesomeIcon icon={displayWordle ? faArrowLeft : faArrowRight}></FontAwesomeIcon> </div>
-                    <div className={displayWordle ? styles.wordleImage : styles.hide} />
+                    <div className={displayWordle ? styles.wordleImage : styles.preload2} />
                     <div className={styles.childs}>
                         <h2>Wordle</h2>
                         <div className={styles.technologies}>
@@ -81,7 +83,7 @@ const Projects = () => {
                 </div>
                 <div className={styles.div4}>
                     <div onClick={() => { setDisplayAerolab(!displayAerolab) }} className={styles.sidebar}><FontAwesomeIcon className={styles.imageIcon} icon={faImage}></FontAwesomeIcon> <FontAwesomeIcon icon={displayAerolab ? faArrowLeft : faArrowRight}></FontAwesomeIcon> </div>
-                    <div className={displayAerolab ? styles.aerolabImage : styles.hide} />
+                    <div className={displayAerolab ? styles.aerolabImage : styles.preload4} />
                     <div className={styles.childs}>
                         <h2>Aerolab Challenge</h2>
                         <div className={styles.technologies}>

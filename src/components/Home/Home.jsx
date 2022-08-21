@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom'
 import { useState } from 'react';
 import portada from './Circle-icons-computer.png'
 
-
 const Home = () => {
 
     const [htmlEstilos, setHtmlEstilos] = useState({ display: "none" })
