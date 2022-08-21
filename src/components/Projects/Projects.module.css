@@ -43,18 +43,22 @@
 }
 .preload1{
     background-image: url(/public/pokechallenge.png);
+    position: absolute;
     opacity: 0;
 }
 .preload2{
  background-image: url(/public/wordle.png);
+ position: absolute;
     opacity: 0;
 }
 .preload3{
     background-image: url(/public/weather.png);
+    position: absolute;
     opacity: 0;
 }
 .preload4{
     background-image: url(/public/aerolab.png);
+    position: absolute;
     opacity: 0;
 }
 .webImage{
