@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Home.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact, faJs, faHtml5, faCss3, faGithub, faBootstrap, faLinkedin, faTypeScript } from '@fortawesome/free-brands-svg-icons'
+import { faReact, faJs, faHtml5, faCss3, faGithub, faBootstrap, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
