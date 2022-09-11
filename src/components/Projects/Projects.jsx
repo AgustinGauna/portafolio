@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styles from './Projects.module.css'
 import { motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGamepad, faShoppingCart, faCloud, faList, faArrowRight, faArrowLeft, faImage } from '@fortawesome/free-solid-svg-icons'
+import { faGamepad, faShoppingCart, faComment, faList, faArrowRight, faArrowLeft, faImage } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 
@@ -42,21 +42,21 @@ const Projects = () => {
                 </div>
                 <div className={styles.div2}>
                     <div onClick={() => { setDisplayWeather(!displayWeather) }} className={styles.sidebar}><FontAwesomeIcon className={styles.imageIcon} icon={faImage}></FontAwesomeIcon> <FontAwesomeIcon icon={displayWeather ? faArrowLeft : faArrowRight}></FontAwesomeIcon> </div>
-                    <div className={displayWeather ? styles.weatherImage : styles.preload3} alt="" />
+                    <div className={displayWeather ? styles.commentsImage : styles.preload3} alt="" />
                     <div className={styles.childs}>
-                        <h2>Weather App</h2>
+                        <h2>Comments Section</h2>
                         <div className={styles.technologies}>
-                            <button>HTML5</button>
-                            <button>CSS3</button>
-                            <button>React js</button>
+                            <button>React</button>
+                            <button>TypeScript</button>
+                            <button>Tailwind CSS</button>
                         </div>
                         <div className={styles.urls}>
-                            <a href="https://weatherapp0001.netlify.app" target="_blank" rel='noopener noreferrer'><button>Sitio</button></a>
-                            <a href="https://github.com/AgustinGauna/weatherApp" target="_blank" rel='noopener noreferrer'><button>Github</button></a>
+                            <a href="https://comment-section-two.vercel.app/" target="_blank" rel='noopener noreferrer'><button>Sitio</button></a>
+                            <a href="https://github.com/AgustinGauna/comment-section" target="_blank" rel='noopener noreferrer'><button>Github</button></a>
                         </div>
                     </div>
                     <div className={styles.side}>
-                        <FontAwesomeIcon className={styles.sideIcon} icon={faCloud}></FontAwesomeIcon>
+                        <FontAwesomeIcon className={styles.sideIcon} icon={faComment}></FontAwesomeIcon>
 
                     </div>
                 </div>

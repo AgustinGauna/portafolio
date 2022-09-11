@@ -24,7 +24,7 @@
     display: flex;
 }
 .sidebar{
-    margin-left: -10px;
+    margin-left: -9px;
     background-color: rgba(31, 30, 30, 0.363);
     cursor: pointer;
     display: flex;
@@ -52,7 +52,7 @@
     opacity: 0;
 }
 .preload3{
-    background-image: url(/public/weather.png);
+    background-image: url(/public/comments.png);
     position: absolute;
     opacity: 0;
 }
@@ -91,12 +91,12 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-.weatherImage{
+.commentsImage{
     position: absolute;
     width: 500px;
     height: 300px;
     animation: 1s in-out forwards;
-    background-image: url(/public/weather.png);
+    background-image: url(/public/comments.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -167,6 +167,7 @@
     align-items: center;
     font-size: 40px;
     border-left: 1px solid black;
+    padding-left: 10px;
 }
 
 .side path{
@@ -274,11 +275,14 @@
     h2{
         font-size: 17px;
     }
-    .webImage,.aerolabImage,.weatherImage,.wordleImage{
+    .webImage,.aerolabImage,.commentsImage,.wordleImage{
         width: 400px;
     }
     .sidebar{
         margin-left: -6px;
+    }
+    .side{
+        padding-left: 5px;
     }
 }
 @media(max-width:840px){
@@ -290,11 +294,11 @@
     .sidebar{
         margin-left: -5px;
     }
-    .webImage, .aerolabImage,.weatherImage,.wordleImage{
+    .webImage, .aerolabImage,.commentsImage,.wordleImage{
         width: 370px;
     }
     .sidebar{
-        margin-left: -6px;
+        margin-left: -5px;
     }
 }
 @media(max-width:990px){
@@ -317,13 +321,10 @@
          .div1, .div2, .div3, .div4{
              width: 415px;
          }
-         .webImage,.aerolabImage,.weatherImage,.wordleImage{
+         .webImage,.aerolabImage,.commentsImage,.wordleImage{
             width: 415px;
         }
 
-        .sidebar{
-            margin-left: -6px;
-        }
         .sidebar{
             margin-left: -7px;
         }
@@ -355,7 +356,7 @@
     .div1, .div2, .div3, .div4{
         width: 370px;
     }
-    .webImage, .aerolabImage, .weatherImage,.wordleImage{
+    .webImage, .aerolabImage, .commentsImage,.wordleImage{
         width: 370px;
     }
     .aerolabImage{
@@ -369,6 +370,7 @@
     }
     .side{
       max-width: 10px;
+      
     }
     .childs h2{
         font-size: 14px;
@@ -383,6 +385,7 @@
     }
     .sideIcon{
         height: 25px;
+        
     }
    
 }
@@ -399,24 +402,33 @@
     .div1, .div2, .div3, .div4{
         width: 320px;
     }
-    .webImage, .aerolabImage, .weatherImage,.wordleImage{
+    .webImage, .aerolabImage, .commentsImage,.wordleImage{
         width: 320px;
     }
     .sidebar{
-        margin-left: -3px;
+        margin-left: -4px;
+    }
+}
+
+@media(max-width:365px){
+    .childs .urls a button{
+        width: 60px;
+        height: 40px;
+    }
+    .sidebar{
+        margin-left: -4px;
     }
 }
 @media(max-width: 320px){
     .div1, .div2, .div3, .div4{
         width: 300px;
     }
-    .webImage, .aerolabImage, .weatherImage,.wordleImage{
+    .webImage, .aerolabImage, .commentsImage,.wordleImage{
         width: 300px;
     }
-}
-@media(max-width:365px){
-    .childs .urls a button{
-        width: 60px;
-        height: 40px;
+    .sidebar{
+       margin-left: -3px;
+
     }
+    
 }

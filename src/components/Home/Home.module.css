@@ -85,10 +85,13 @@
 .bootstrap:hover{
     color:#563d7c;
 }
-.ts{
-    height: 35px;
-    width: 35px;    
+.ts:hover{
+    fill:	#007acc;
 }
+.tailwind:hover{
+    fill:#38bdf8;
+}
+
 
 .cv_link{
     cursor: default;
